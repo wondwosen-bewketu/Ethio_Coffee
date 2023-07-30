@@ -1,7 +1,25 @@
+import { useState } from "react";
 
 
 const Header = () => {
-return  <header class="header" style = {{ backgroundColor: '#000'}}id="header">
+
+ const [changeHeader,setChangeHeader] = useState(false)
+
+ const changeHeaderColor = () => {
+    if(window.scrollY >= 50)
+    {
+        setChangeHeader(true)
+    }
+    else {
+        setChangeHeader(false)
+    }
+ }
+
+ window.addEventListener('scroll', changeHeaderColor)
+
+
+
+return ( <header className={`header ${changeHeader && `scroll-header`}`}  id="header">
 <nav class="nav container">
   <a href="#home" class="nav__logo">Ethio<span>.</span>ቡና </a>
 
@@ -30,7 +48,7 @@ return  <header class="header" style = {{ backgroundColor: '#000'}}id="header">
     <i class="bx bx-grid-alt"></i>
   </div>
 </nav>
-</header>
+</header>)
 
 };
 
