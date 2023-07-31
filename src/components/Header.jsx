@@ -21,7 +21,7 @@ const Header = () => {
 
 return ( <header className={`header ${changeHeader && `scroll-header`}`}  id="header">
 <nav class="nav container">
-  <a href="#home" class="nav__logo">Ethio<span>.</span>ቡና </a>
+  <a href="#home" class="nav__logo">ፅዮን<span>.</span>ቡና </a>
 
   <div class="nav__menu" id="nav-menu">
     <ul class="nav__list">
