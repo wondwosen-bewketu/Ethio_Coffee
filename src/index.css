@@ -164,6 +164,7 @@ button {
 }
 
 /* change header background */
+
 .scroll-header {
   background-color: hsla(206, 12%, 12%, 0.9);
   box-shadow: 0 1px 4px hsla(0, 4%, 15%, 0.1);

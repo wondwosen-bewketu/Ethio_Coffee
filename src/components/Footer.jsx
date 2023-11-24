@@ -14,14 +14,14 @@ const Footer = () => {
             <div class="footer__data">
               <h2 class="footer__subtitle">Address</h2>
               <p class="footer__information">
-                Street no.19 Lombok <br />
-                mataram. 003
+                Street no.20 <br />
+                azezo. 003
               </p>
             </div>
             <div class="footer__data">
               <h2 class="footer__subtitle">Contact</h2>
               <p class="footer__information">
-                +251988227388 <br />
+                +25198822**** <br />
                 bewketuwondwosen@email.com
               </p>
             </div>
