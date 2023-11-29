@@ -11,7 +11,7 @@ const Blog = () => {
           <article className="blog__card">
             <div className="blog__image">
               <img src="./media/blog1.jpg" alt="" className="blog__img" />
-              <a href="#" className="blog__button">
+              <a href="" className="blog__button">
                 <i className="bx bx-right-arrow-alt"></i>
               </a>
               <div className="blog__stats">
